@@ -4,7 +4,7 @@ import './button.css';
 interface ButtonProps {
   color?: 'red' | 'blue' | 'green';
   size?: 'small' | 'medium' | 'large';
-  children: React.ReactNode;
+  children: string | React.ReactNode;
   disabled: boolean;
   onClick?: () => void;
 }
